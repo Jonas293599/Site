@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <header class="menu" id="inicio"></header>
+        <nav>
+            <p><img src="icons/favicon-32x32.png" alt="icone"><span style="color: orangered">T</span>ech<span
+                    style="color: orangered;">H</span>ouse
+            </p>
+            <hr>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#produtos" class="dropbtn">Produtos</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#celulares">Celulares</a></li>
+                        <li><a href="#computadores">Computadores</a></li>
+                        <li><a href="#acessorios">Acessórios</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contatos">Contatos</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <div class="btns">
+                    <li><a href="login.html"><button class="btn-login">Login</button></a></li>
+                    <li><a href="cadastro.html"><button class="btn-registro">Registrar-se</button></a></li>
+                </div>
+            </ul>
+        </nav>
+        </header>
+        <div class="container-login">
+            <center><a href="index.html"><img src="icons/android-chrome-512x512.png" alt="" width="25%"></a></center>
+            <div class="container-login2">
+                <h2>Login</h2>
+                <form action="login.html" method="post">
+                    <label for="username">Nome de usuario ou email: </label>
+                    <br>
+                    <input type="text" id="username" name="username" required>
+                    <br>
+                    <label for="senha">Senha: </label>
+                    <br>
+                    <input type="password" id="senha" name="senha" required>
+                    <br>
+                    <button type="submit">Entrar</button>
+
+                    <p>Não tem uma conta?<a href="Cadastro.html"><br>Cadastre-se</a></p>
+                    <br>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-conteiner">
+                <div class="footer-section">
+                    <h4>Sobre Nós</h4>
+                    <ul>
+                        <p><a href="sobre.html">Sobre nos</a></p>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contatos</h4>
+                    <div class="social-links" id="contatos">
+                        <a href="https://www.facebook.com/?locale=pt_BR">Facebook</a>
+                        <a href="twitter.com">Twitter</a>
+                        <a href="instagram.com">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;2024 Empresa. Todos os direiros reservados</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
